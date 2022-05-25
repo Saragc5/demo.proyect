@@ -1,0 +1,59 @@
+/*General*/
+* {
+    box-sizing: border-box;
+}
+.container{
+    border: 5px solid blueviolet;
+    padding: 10px;
+}
+/*Titulo de página:*/
+header{
+    border: 5px solid blueviolet;
+    background-color: blueviolet;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/*Los servicios en cuadros flotantes:*/
+    /*esto para que me lo aplique en todas las clases BOX:*/
+[class^=box]{
+    border: 2px solid grey;
+    height: 210px;
+    width: 210px;
+    padding: 10px;
+    margin: 10px;
+
+}
+section { /*es el padre de los box*/
+    position: absolute;
+    border: 5px solid blueviolet;
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+   
+
+}
+.box1 {
+     margin: auto;;  
+}
+
+.box2 {
+       float: left;
+}
+
+.box3 {
+       float: right;
+}
+
+.box4 {
+      margin-bottom: 5px;
+      margin: auto;
+}
+.pos-fixed a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
